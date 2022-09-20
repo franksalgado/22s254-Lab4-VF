@@ -1,7 +1,11 @@
 #include <iostream>
+#include <fstream>
 
 using namespace std;
+
+extern void printReadMe();
+
 int main() {
-    cout << "Hello World" << endl;
+    printReadMe();
     return 0;
 }
